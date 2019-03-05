@@ -11,11 +11,19 @@
 #include <CS120B_Labs/czara007_CS120B_FinalProject/timer.h>
 
 //////////////////////////////////////////////////////////////
+//Gane Scoring
+unsigned char level1 = 0;
+unsigned char level2 = 0;
+unsigned char level3 = 0;
+
+unsigned char score
+
 //DISPLAY
 const unsigned char* Welcome_string = "Welcome, Simon says Hi";
-unsigned char* Menu_string = "1. Begin game  2. Level 3. Reset/Scores"
+unsigned char* Menu_string = "1. Begin game  2. Level 3. Reset/Scores";
 unsigned char* Begin_string = "Begin";
-unsigned char* Error_string = "Sorry wrong entry "
+unsigned char* win_string = "Congrats you won";
+unsigned char* Error_string = "Sorry wrong entry ";
 
 //LED Matrix 
 unsigned char top_left = 0;
