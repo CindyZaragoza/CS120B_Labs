@@ -4,7 +4,7 @@
 
 #include <avr/io.h>
 #include <avr/interrupt.h>
-#icnlude <avr/eeprom.h>
+#include <avr/eeprom.h>
 #include <stdio.h>
 #include <CS120B_Labs/czara007_CS120B_FinalProject/bit.h>
 #include <CS120B_Labs/czara007_CS120B_FinalProject/io.c>
